@@ -1,0 +1,24 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "inputs": [
+        {
+            "id": "post-name",
+            "type": "promptString",
+            "description": "Title of the blog post"
+        }
+    ],
+    "tasks": [
+        {
+            "label": "Make new blog post",
+            "type": "shell",
+            "command": "hugo new content/blog/$(date -u +%Y-%m-%d)-${input:post-name}.md"
+        },
+        {
+            "label": "Run Hugo Dev Server",
+            "type": "shell",
+            "command": "hugo server"
+        }
+    ]
+}

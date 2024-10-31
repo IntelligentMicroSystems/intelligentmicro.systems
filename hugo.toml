@@ -1,0 +1,5 @@
+baseURL = 'https://intelligentmicro.systems/'
+languageCode = 'en-us'
+title = 'Intelligent Microsystems'
+theme = ["mainroad"]
+enableInlineShortcodes = true

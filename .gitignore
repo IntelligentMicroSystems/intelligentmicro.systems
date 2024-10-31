@@ -1,0 +1,6 @@
+.direnv
+node_modules
+themes/*
+resources/
+public/
+hugo_stats.json
