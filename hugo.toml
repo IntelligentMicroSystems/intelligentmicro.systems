@@ -1,4 +1,4 @@
-baseURL = 'https://intelligentmicro.systems/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Intelligent Microsystems'
 theme = ["mainroad"]
